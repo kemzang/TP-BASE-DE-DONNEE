@@ -1,0 +1,19 @@
+﻿<Window x:Class="APP_BD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:APP_BD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="632" Width="1586">
+    <Grid Margin="0,132,53,0" RenderTransformOrigin="0.438,0.479" HorizontalAlignment="Right" Width="1393">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="797*"/>
+            <ColumnDefinition Width="789*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="ADMINISTRATEUR" FontSize="30" Background="Aquamarine" FontStyle="Italic"  HorizontalAlignment="Left" Margin="558,-107,0,0" VerticalAlignment="Top" Height="76" Width="327" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
+    
+    

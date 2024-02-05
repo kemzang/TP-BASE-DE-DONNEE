@@ -1,0 +1,27 @@
+﻿<Page x:Class="APP_BD.Filiere"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:APP_BD"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Filiere">
+
+    <Grid Margin="0,0,-112,0" >
+
+        <Grid x:Name="MainGrid">
+            <Label Content="GESTION DES FILIERES" FontSize="30" Background="BlanchedAlmond" HorizontalAlignment="Left" Margin="259,55,0,0" VerticalAlignment="Top"/>
+            <Label Content="CREER UNE NOUVELLE FILIERE" FontSize="20" HorizontalAlignment="Left" Margin="57,181,0,0" VerticalAlignment="Top"/>
+            <Label Content="CONSULTEZ UNE FILIERE EXISTANTE" FontSize="20" HorizontalAlignment="Left" Margin="57,334,0,0" VerticalAlignment="Top"/>
+            <Button Click="filiere" Content="Valider" FontSize="20" Background="Azure" HorizontalAlignment="Left" Margin="538,199,0,0" Padding="10,10,10,10" VerticalAlignment="Top" Width="151"/>
+            <Button Click="Departement" Content="Valider" FontSize="20" Background="AntiqueWhite" HorizontalAlignment="Left" Margin="538,352,0,0" VerticalAlignment="Top" Height="44" Width="151"/>
+            <ComboBox HorizontalAlignment="Left" Background="Aqua" Margin="751,352,0,0" VerticalAlignment="Top" Width="151" Height="44"/>
+
+        </Grid>
+
+        <Grid>
+            <Frame x:Name="MainContentFrame" />
+        </Grid>
+    </Grid>
+</Page>
